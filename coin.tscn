@@ -115,8 +115,8 @@ animations = [{
 "texture": SubResource("AtlasTexture_4rshd")
 }],
 "loop": true,
-"name": &"default",
-"speed": 20.0
+"name": &"coin",
+"speed": 15.0
 }]
 
 [node name="Area2D" type="Area2D"]
@@ -127,7 +127,9 @@ shape = SubResource("CircleShape2D_0t63x")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_oechm")
-frame = 13
-frame_progress = 0.277777
+animation = &"coin"
+autoplay = "coin"
+frame = 11
+frame_progress = 0.222223
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
