@@ -1,6 +1,6 @@
 [gd_scene load_steps=29 format=4 uid="uid://lbw5ay7ivuf0"]
 
-[ext_resource type="Script" uid="uid://b7u68o285f8rv" path="res://game_manager.gd" id="1_getpj"]
+[ext_resource type="Script" uid="uid://b7u68o285f8rv" path="res://main.gd" id="1_getpj"]
 [ext_resource type="Script" uid="uid://q0jp0xwx6qfm" path="res://player.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cnxe51vj6ejrw" path="res://TileSet/6. Character Animations 32p/Anim_Robot_Walk1_v1.1_frames/1.png" id="2_5vw27"]
 [ext_resource type="Texture2D" uid="uid://cly1h2figjeul" path="res://TileSet/6. Character Animations 32p/Anim_Robot_Jump1_v1.1_frames/1.png" id="3_2cqfq"]
